@@ -24,3 +24,10 @@
     background-color: grey !important;
 }
 
+.card .col {
+    background-color: grey;
+}
+
+.card {
+    border: 0;
+}
