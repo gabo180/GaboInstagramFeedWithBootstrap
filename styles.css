@@ -19,3 +19,7 @@
     background-color: grey !important;
     color: white !important;
 }
+
+.card-img-list {
+    width: 400px;
+}
