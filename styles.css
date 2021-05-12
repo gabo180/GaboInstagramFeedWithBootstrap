@@ -5,3 +5,8 @@
         font-size: x-large;
         font-family: 'Lobster', cursive;
     }
+
+    .card-img-top{
+        height: 450px;
+        padding: 2px;
+    }
