@@ -15,8 +15,30 @@
 </head>
 
 <body>
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <textarea class="form-control border border-dark" id="message-text"></textarea>
+                </div>
+                <div class="row pl-2 mb-2">
+                    <div class="col-1">
+                        <button type="button" class="btn border border-1"><i class="fas fa-camera"></i></button>
+                    </div>
+                    <div class="col-1">
+                        <button type="button" class="btn border border-1"><i class="fas fa-map-marker-alt"></i></button>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-light border border-1" data-dismiss="modal">Cancel</button>
+                    <button type="button" class="btn btn-success">Publish</button>
+                </div>
+            </div>
+        </div>
+    </div>
     <!-- Image and text -->
-    <nav class="navbar navbar-light bg-light border-bottom">
+    <nav class="navbar navbar-light bg-light border-bottom sticky-top p-0">
         <div class="container"><a class="navbar-brand" href="#">
                 <i class="fab fa-instagram fa-lg"></i>
                 <h3 id="h3Instagram">Instagram</h3>
@@ -26,35 +48,6 @@
                 <button type="button" class="btn btn-success" data-toggle="modal" data-target="#exampleModal">
                     Create a new post
                 </button>
-
-                <!-- Modal -->
-                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
-                    aria-hidden="true">
-                    <div class="modal-dialog">
-                        <div class="modal-content">
-                            <div class="modal-body">
-                                <textarea class="form-control border border-dark" id="message-text"></textarea>
-                            </div>
-                            <div class="row pl-2 mb-2">
-                                <div class="col-1">
-                                    <button type="button" class="btn border border-1"><i
-                                            class="fas fa-camera"></i></button>
-
-                                </div>
-                                <div class="col-1">
-                                    <button type="button" class="btn border border-1"><i
-                                            class="fas fa-map-marker-alt"></i></button>
-
-                                </div>
-                            </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-light border border-1"
-                                    data-dismiss="modal">Cancel</button>
-                                <button type="button" class="btn btn-success">Publish</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
                 <!-- Large button groups (default and split) -->
                 <div class="btn-group">
                     <button class="btn btn-light dropdown-toggle" type="button" data-toggle="dropdown"
@@ -88,36 +81,54 @@
         <div class="tab-pane fade show active container-fluid" id="pills-home" role="tabpanel"
             aria-labelledby="pills-home-tab">
             <div class="row">
-                <div class="col">
-                    <img class="card-img-top" src="https://cdn.britannica.com/21/102121-050-DCA84B12/Mountains-Glacier-National-Park-Montana.jpg" alt="">
+                <div class="col pr-0 pl-0">
+                    <img class="card-img-top"
+                        src="https://cdn.britannica.com/21/102121-050-DCA84B12/Mountains-Glacier-National-Park-Montana.jpg"
+                        alt="">
                 </div>
-                <div class="col">
-                    <img class="card-img-top" src="https://cdn.britannica.com/21/102121-050-DCA84B12/Mountains-Glacier-National-Park-Montana.jpg" alt="">
+                <div class="col pr-0 pl-0">
+                    <img class="card-img-top"
+                        src="https://cdn.britannica.com/21/102121-050-DCA84B12/Mountains-Glacier-National-Park-Montana.jpg"
+                        alt="">
                 </div>
-                <div class="col">
-                    <img class="card-img-top" src="https://cdn.britannica.com/21/102121-050-DCA84B12/Mountains-Glacier-National-Park-Montana.jpg" alt="">
-                </div>
-            </div>
-            <div class="row">
-                <div class="col">
-                    <img class="card-img-top" src="https://cdn.britannica.com/21/102121-050-DCA84B12/Mountains-Glacier-National-Park-Montana.jpg" alt="">
-                </div>
-                <div class="col">
-                    <img class="card-img-top" src="https://cdn.britannica.com/21/102121-050-DCA84B12/Mountains-Glacier-National-Park-Montana.jpg" alt="">
-                </div>
-                <div class="col">
-                    <img class="card-img-top" src="https://cdn.britannica.com/21/102121-050-DCA84B12/Mountains-Glacier-National-Park-Montana.jpg" alt="">
+                <div class="col pr-0 pl-0">
+                    <img class="card-img-top"
+                        src="https://cdn.britannica.com/21/102121-050-DCA84B12/Mountains-Glacier-National-Park-Montana.jpg"
+                        alt="">
                 </div>
             </div>
             <div class="row">
-                <div class="col">
-                    <img class="card-img-top" src="https://cdn.britannica.com/21/102121-050-DCA84B12/Mountains-Glacier-National-Park-Montana.jpg" alt="">
+                <div class="col pr-0 pl-0">
+                    <img class="card-img-top"
+                        src="https://cdn.britannica.com/21/102121-050-DCA84B12/Mountains-Glacier-National-Park-Montana.jpg"
+                        alt="">
                 </div>
-                <div class="col">
-                    <img class="card-img-top" src="https://cdn.britannica.com/21/102121-050-DCA84B12/Mountains-Glacier-National-Park-Montana.jpg" alt="">
+                <div class="col pr-0 pl-0">
+                    <img class="card-img-top"
+                        src="https://cdn.britannica.com/21/102121-050-DCA84B12/Mountains-Glacier-National-Park-Montana.jpg"
+                        alt="">
                 </div>
-                <div class="col">
-                    <img class="card-img-top" src="https://cdn.britannica.com/21/102121-050-DCA84B12/Mountains-Glacier-National-Park-Montana.jpg" alt="">
+                <div class="col pr-0 pl-0">
+                    <img class="card-img-top"
+                        src="https://cdn.britannica.com/21/102121-050-DCA84B12/Mountains-Glacier-National-Park-Montana.jpg"
+                        alt="">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col pr-0 pl-0">
+                    <img class="card-img-top"
+                        src="https://cdn.britannica.com/21/102121-050-DCA84B12/Mountains-Glacier-National-Park-Montana.jpg"
+                        alt="">
+                </div>
+                <div class="col pr-0 pl-0">
+                    <img class="card-img-top"
+                        src="https://cdn.britannica.com/21/102121-050-DCA84B12/Mountains-Glacier-National-Park-Montana.jpg"
+                        alt="">
+                </div>
+                <div class="col pr-0 pl-0">
+                    <img class="card-img-top"
+                        src="https://cdn.britannica.com/21/102121-050-DCA84B12/Mountains-Glacier-National-Park-Montana.jpg"
+                        alt="">
                 </div>
             </div>
         </div>
