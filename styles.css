@@ -20,6 +20,7 @@
     color: white !important;
 }
 
-.card-img-list {
-    width: 400px;
+#pills-profile {
+    background-color: grey !important;
 }
+
