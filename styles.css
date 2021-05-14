@@ -6,7 +6,7 @@
      font-family: 'Lobster', cursive;
 }
 
-.card-img-top{
+.card-img-top {
      height: 450px;
      padding: 2px;
 }
@@ -21,11 +21,11 @@
 }
 
 #pills-profile {
-    background-color: grey !important;
+    background-color: #c0c0c0 !important;
 }
 
 .card .col {
-    background-color: grey;
+    background-color: #c0c0c0;
 }
 
 .card {
